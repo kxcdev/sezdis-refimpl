@@ -15,6 +15,9 @@ You can build it with `yarn` followed by `yarn build`
 You can run the included tests with `yarn jest`
 (assume that you have built the project first.)
 
+If you are hacking around, you may find `yarn dev` and `yarn verify`
+particularly interesting.
+
 ## Organization
 
 - `src/sezdis-generic.ts` implements the generic SezDis scheme
