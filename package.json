@@ -1,6 +1,7 @@
 {
   "name": "sezdis",
   "version": "0.0.1",
+  "lisense": "Apache-2.0",
   "scripts": {
     "build": "tsup",
     "lint": "eslint ." ,

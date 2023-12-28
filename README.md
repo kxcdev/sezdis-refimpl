@@ -38,3 +38,10 @@ You can run the included tests with `yarn jest`
 
 - `src/sezdis.test.ts` contains various tests to validate primitives
   as well as the `sezdis-416a0` implementation.
+
+## License
+
+This software is licensed under the Apache License version 2.0
+by the copyright holder(s) listed below. See the [LICENSE](LICENSE) file for details.
+
+Copyright 2023 Kotoi-Xie Consultancy, Inc.
