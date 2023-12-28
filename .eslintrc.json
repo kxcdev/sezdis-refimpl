@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "env": {
+    "es2022": true
+  },
+  "ignorePatterns": ["**/dist"],
+  "extends": [
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "rules": {
+        "prettier/prettier": ["warn"],
+        "@typescript-eslint/no-namespace": "off"
+      }
+    }
+  ]
+}
