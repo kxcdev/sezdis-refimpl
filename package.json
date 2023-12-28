@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsup",
     "lint": "eslint ." ,
+    "typecheck": "tsc -p tsconfig.json" ,
     "dev": "tsup --watch",
     "test": "jest",
     "clean": "rm -rf dist node_modules"

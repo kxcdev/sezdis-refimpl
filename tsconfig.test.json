@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "outDir": "./_tsout",
+    "composite": true
+  },
+  "include": [
+    "src/**/*.test.ts"
+  ],
+  "references": [
+    { "path": "./tsconfig.lib.json" },
+  ]
+}

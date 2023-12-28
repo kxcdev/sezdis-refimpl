@@ -3,7 +3,7 @@
   "env": {
     "es2022": true
   },
-  "ignorePatterns": ["**/dist"],
+  "ignorePatterns": ["**/dist", "**/_tsout"],
   "extends": [
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended"
