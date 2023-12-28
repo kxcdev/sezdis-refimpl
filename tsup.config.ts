@@ -4,6 +4,7 @@ export default defineConfig((options: Options) => ({
   entry: {
     index: "index.ts",
   },
+  ignoreWatch: ["_tsout"],
   banner: {
     js: "'use client'",
   },
