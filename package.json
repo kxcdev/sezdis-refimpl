@@ -5,11 +5,11 @@
   "scripts": {
     "build": "tsup",
     "lint": "eslint ." ,
-    "typecheck": "tsc -p tsconfig.json" ,
+    "typecheck": "rm -rf _tsout && tsc -p tsconfig.lib.json && tsc -p tsconfig.test.json && tsc -p tsconfig.json" ,
     "verify": "yarn build && yarn test && yarn lint && yarn typecheck" ,
     "dev": "tsup --watch",
     "test": "jest",
-    "clean": "rm -rf dist node_modules"
+    "clean": "rm -rf dist node_modules _tsout"
   },
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
