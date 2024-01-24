@@ -1,3 +1,5 @@
+(presentation slides: [scis2024presentation-exported.pdf](./scis2024presentation-exported.pdf) (password is the WiFi password of D会場))
+
 # Reference Implementation for SezDis Sealing
 
 This repository holds the reference implementation code for
